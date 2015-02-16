@@ -1,0 +1,37 @@
+html, body, h1, p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  font-family: 
+}
+
+.header {
+  border-bottom: solid #231F20 2px;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+}
+
+.header > * {
+  align-self: center;
+  margin: auto;
+}
+
+.brand {
+  font-size: 3em;
+}
+
+.black {
+  color: #231F20;
+}
+
+.blue {
+  color: #00bce4;
+}
+
+.weather > * {
+  margin-right: 1em;
+}
