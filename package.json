@@ -1,0 +1,28 @@
+{
+  "name": "web_kiosk",
+  "version": "0.0.1",
+  "description": "A React-based front end for the IRC kiosk.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImagingResearchCenter/web_kiosk"
+  },
+  "keywords": [
+    "react",
+    "js"
+  ],
+  "author": "Jeremy Neal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ImagingResearchCenter/web_kiosk/issues"
+  },
+  "homepage": "https://github.com/ImagingResearchCenter/web_kiosk",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.11.2"
+  }
+}
