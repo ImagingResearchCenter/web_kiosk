@@ -1,6 +1,6 @@
 ;(function() {
   React.render(
-    <Header />,
+    <App />,
     document.getElementById('content')
   );
 })();
